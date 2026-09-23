@@ -1,0 +1,13 @@
+.one[href]{
+    background-color: aqua;
+}
+.two[href]{
+    background-color: deeppink;
+}
+.two[href='#contact']{
+    background-color:lightgreen;
+}
+
+img[alt='car']{
+    border: 10px solid goldenrod;
+}

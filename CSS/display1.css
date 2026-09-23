@@ -1,0 +1,29 @@
+h1{
+    height: 100px;
+    width: 200px;
+    background-color: darkorange;
+    display: inline;
+}
+span{
+    display: block;
+    height: 100px;
+    width: 200px;
+    background-color: deeppink;
+}
+p{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 200px;
+    /* display: inline-block; */
+    display: none;
+    /* visibility: hidden; */
+    color: white;
+}
+/* diference between inline block and none and visiblity hidden */
+/* pattern attribute */
+/* row span and col span */
+/* utf-8 */
+/* explain structure of html */
+/* alt attributte */
+/* semantic */
+/* specificity in css */

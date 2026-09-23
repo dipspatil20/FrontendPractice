@@ -1,0 +1,36 @@
+body{
+    height: 2000px;
+    border: 2px solid red;
+}
+.one {
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    left: 150px;
+}
+.two {
+    height: 200px;
+    width: 300px;
+    background-color: greenyellow;
+    position: fixed;
+    right: 0;
+}
+.three {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+}
+.imgg{
+    position: fixed;
+}
+h1{
+    position: fixed;
+}
+.four{
+    height: 300px;
+    width: 200px;
+    background-color: salmon;
+    position: sticky;
+    top: 200px;
+}

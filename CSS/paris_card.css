@@ -1,0 +1,52 @@
+/* section{
+    padding: 20px;
+} */
+
+.card{
+    /* background-color: deepskyblue; */
+    width: 300px;
+    box-shadow: 0 0 20px 3px gray;
+    border-radius: 20px;
+    padding: 30px;
+}
+.card button{
+    font-size: 15px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+}
+.card h1,h3{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+img{
+    padding: 0 0 0 50px;
+}
+.card h3{
+    font-size: 30px;
+}
+
+.pi{
+    /* text-align: center;
+    text-align: left;
+    text-align: right; */
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-shadow: 6px 3px 4px red;
+    text-indent: 100px; 
+    text-decoration-color: aqua;
+    text-underline-offset: 5px;
+    letter-spacing: 3px;
+    word-spacing: 50px;
+    line-height: 50px;
+}

@@ -1,0 +1,49 @@
+body{
+    padding: 40px 0;
+}
+
+form{
+    width: 70%;
+    margin-left: 100px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+fieldset{
+    background-color:ivory;
+}
+label{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+legend{
+    color:darkblue;
+    text-align: center;
+}
+input{
+    margin-right: 10px;
+    height: 19px;
+}
+.c1{
+    border: 2px solid;
+}
+.c2{
+    border: 2px double darkblue;
+}
+#agr{
+    margin-left: 20px;
+}
+input:focus,
+select:focus,
+textarea:focus{
+    background-color:indigo;
+    color: aliceblue;
+    
+}
+h3:hover{
+    color: red;
+}
+
+label:active{
+    color: chartreuse;
+}

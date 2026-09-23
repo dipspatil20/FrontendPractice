@@ -1,0 +1,28 @@
+/* Psuedo element */
+/* 1. first letter */
+/* 2. firstline */
+/* 3. before */
+/* 4. after */
+/* 5.marker */
+/* 6. selection */
+
+p::first-letter{
+    color: red;
+    font-size: 20px;
+}
+p::first-line{
+    color: white;
+    background-color: blueviolet;
+}
+p::before{
+    content: "Welcome! ";
+}
+p::after{
+    content: "❤️";
+}
+p::selection{
+    color: pink ;
+}
+li::marker{
+    color: chocolate;
+}

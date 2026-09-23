@@ -1,0 +1,170 @@
+/* simple selector */
+
+/* 1.id(#), 2.class(.), 3.grouping(,), 4.tagname, 5.universal(*) */
+/* *{
+    background-color: beige;
+}
+
+#first {
+    background-color: orange;
+    color: white;
+}
+
+#second {
+    color: blue;
+}
+
+#third {
+    background-color: green;
+}
+
+.car1{
+    background-color: aqua;
+}
+
+.car2{
+    background-color: cornflowerblue;
+}
+
+h3,h4,p{
+    background-color: deeppink;
+}
+
+#third, .car1{
+    background-color: yellow;
+    color: rgb(160, 160, 194);
+} */
+
+/* #########combinator selector */
+
+/* decsender selector - symbol is (space) */
+
+/* section h1{
+    background-color: aqua;
+}
+
+h1{
+    background-color: pink;
+} */
+
+
+/* child selector -symbol is >*/
+
+/* section>h1{
+    background-color: lavender;
+}
+
+aside h1{
+    color: orange;
+} */
+
+
+/* adjuscent sibling selector -symbol is + */
+
+/* section h4+p{
+    background-color: rgb(209, 167, 167);
+}
+
+section p+p{
+    background-color: grey;
+} */
+
+/* general sibling selector -symbol is ~ */
+
+/* section p~p{
+    background-color: lavenderblush;
+
+} */
+
+/* #########psudo element selector -symbol is :: */
+
+/* p::first-letter{
+    color: red;
+    font-size: 80px;
+}
+
+p::first-line{
+    color: white;
+    background-color: black;
+}
+
+p::before{
+    content: "welcome!";
+}
+
+p::after{
+    content:"by!"
+}
+
+p::selection{
+    background-color: rgb(235, 206, 206);
+}
+li::marker{
+    color: red;
+} */
+
+
+/* psudo class selector */
+/* 
+.parent p:first-child {
+    background-color: rgb(152, 116, 152);
+}
+
+.parent p:last-child {
+    background-color: yellow;
+}
+
+.parent p:nth-child(3) {
+    background-color: rgb(79, 137, 173);
+}
+
+.parent p:nth-child(even) {
+    background-color: gray;
+}
+
+.parent p:nth-child(odd) {
+    background-color: rgb(255, 219, 255);
+} */
+
+
+/* .parent p:first-child{
+    border: 1px solid red;
+}
+
+.parent b:first-of-type{
+    border: 3px solid plum;
+}
+
+.parent p:last-child{
+    border: 1px solid red;
+}
+
+.parent p:first-child{
+    border: 1px solid rgb(56, 53, 53);
+} */
+/* will not get becouse last is b. */
+
+/* .parent b:last-of-type{
+    border: 3px solid plum;
+}
+
+.parent b:nth-of-type(3){
+    border: 3px solid green;
+} */
+
+/* dynamic psudo selector */
+h1:hover {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    transition: 1s;
+    transform: scale(2);
+}
+
+a:active {
+    color: rgb(174, 211, 50)
+}
+
+input:focus {
+    background-color: aquamarine;
+}

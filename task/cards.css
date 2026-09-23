@@ -1,0 +1,58 @@
+section{
+    border: 2px salmon solid;
+}
+
+.card:hover{
+    background-color: #2980b9;
+    color: aliceblue;
+}
+
+.card{
+    /* background-color: deepskyblue; */
+    width: 300px;
+    box-shadow: 0 0 20px 3px gray;
+    border-radius: 20px;
+    padding: 30px; 
+    background-color: seashell;
+    margin-left: 20px;
+}
+.card button{
+    font-size: 15px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+}
+.card h1,h3{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+img{
+    padding: 0 0 0 0px;
+    margin: 30px;
+    border: solid;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 30px;
+}
+#c2, #c7, #c12, #c17{
+    margin-left: 400px;
+    margin-top: -710px;
+}
+#c3, #c8, #c13, #c18{
+    margin-left: 800px;
+    margin-top: -725px;
+}
+#c4, #c9, #c14, #c19{
+    margin-left: 1200px;
+    margin-top: -725px;
+}
+#c5, #c10, #c15, #c20{
+    margin-left: 1600px;
+    margin-top: -725px; 
+}

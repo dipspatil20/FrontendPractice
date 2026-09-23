@@ -1,0 +1,39 @@
+/* combinator selector */
+/* descent selector- symbol is (space) */
+
+/* section{
+    background-color: rebeccapurple;
+    color: aliceblue;
+} 
+section h1{
+    background-color: aqua;
+}
+h1{
+    background-color: hotpink;
+} */
+
+/* child selector symbol is (>)*/
+
+/* section>h1{
+    background-color: orange;
+}
+aside h1{
+    color: blue;
+} */
+/* -------------------------------------------- */
+
+/* Adjuscent sibling selector- symbol is (+) */
+
+section p+p{
+    background-color:darkturquoise;
+}
+section h3+p{
+    background-color: deeppink;
+}
+
+
+/* general sibling selector - symbol is (~) */
+
+section p~p{
+    color:white;
+}

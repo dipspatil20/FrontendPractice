@@ -1,0 +1,25 @@
+*{
+    background-color: cornsilk;
+}
+#first{
+    background-color: aqua;
+}
+#second{
+    background-color: bisque;
+}
+#third{
+    background-color: cadetblue;
+}
+.car1{
+    background-color: coral;
+}
+.car2{
+    background-color: cornflowerblue;
+}
+h3,h4,p{
+    background-color: deeppink;
+}
+#third, .car1{
+    background-color: rgb(32, 108, 51);
+    color: red;
+}

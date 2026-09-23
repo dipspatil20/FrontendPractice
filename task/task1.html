@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend><h3>Application Form</h3></legend>
+            <label for="user">Username</label>
+            <input type="text" name="username"  id="user"placeholder='username in lowercase' class="c1" maxlength="15" required><br><br>
+
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" placeholder="strong password" class="c2" required><br><br>
+
+            <label for="id">Student ID</label>
+            <input type="text" id="id" name="id" pattern="[0-9]{5}" placeholder="5 digit ID" class="c1" required> <br><br>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="c2" maxlength="15" required><br><br>
+
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" class="c1" required><br><br>
+
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob" class="c2" required> <br><br>
+
+            <label for="ph">Mobile Number</label>
+            <input type="tel" id="ph" pattern="[0-9]{10}" name="mobile" class="c1" required><br><br>
+
+            <label for="">Gender: </label>
+            <input type="radio" name="Gender" value="Female" class="c2">Female
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Other">Other <br><br>
+
+            <label for="add">Address</label>
+            <textarea name="add" id="add" class="c1" required></textarea> <br><br>
+
+            <label for="city">City</label>
+            <input type="text" id="id" name="id" class="c2" required> <br><br>
+            
+            <label for="state">State</label>
+            <select name="state" class="c1">
+                <option>Select State</option>
+                <option>Maharashtra</option>
+                <option>Gujarat</option>
+                <option>Rajastan</option>
+                <option>Karnataka</option>
+            </select><br><br>
+
+            <label for="pin">Pin Code</label>
+            <input type="text" pattern="[0-9]{6}" id="pin" name="pin" class="c2" required> <br><br>
+
+            <label for="" class="">Languages</label>
+            <input type="checkbox" name="lang" value="MH">Marathi
+            <input type="checkbox" name="lang" value="HI">Hindi
+            <input type="checkbox" name="lang" value="GJ">Gujarati
+            <input type="checkbox" name="lang" value="ENG">English <br><br>
+
+            <label>Course</label>
+            <select name="course" class="c1" required>
+                <option>Select Course</option>
+                <option>B.Sc IT</option>
+                <option>MCA</option>
+                <option>BCA</option>
+                <option>B.Tech</option>
+            </select><br><br>
+
+            <label for="clg">Collage Name</label>
+            <input type="text" id="clg" name="clg" class="c2" required><br><br>
+
+            <label>Blood Group</label>
+            <select name="blood_group" class="c1" required>
+                <option>Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select><br><br>
+
+            <label for="photo">Photo</label>
+            <input type="file" id="photo" name="photo" accept=".png,.jpg," required><br><br>
+        
+            <input type="checkbox" name="term" required id="agr">
+            <label for="" class="c2" >Terms And Conditions*</label><br><br>
+
+            <label for="">Agreement</label>
+            <select name="agree" class="c1" required>
+                <option>choose</option>
+                <option>I Agree</option>
+                <option disabled>Disagree</option>
+            </select>
+
+            <br><br><br>
+            <button type="submit">Register</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
