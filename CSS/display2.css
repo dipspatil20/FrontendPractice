@@ -1,0 +1,45 @@
+/* .parent{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    background-color: deepskyblue;
+}
+.parent .child{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border: 2px solid springgreen;
+    position: absolute;
+}
+.parent .child:first-child{
+    top: 40px;
+    left: 60px;
+    background-color: red;
+    z-index: 1;
+}
+.parent .child:nth-child(2){
+    top: 40px;
+    left: 350px;
+    background-color: yellow;
+}
+.parent .child:last-child{
+    top: 40px;
+    left: 210px;
+    background-color: hotpink;
+} */
+
+.parent{
+    height: 200px;
+    width: 500px;
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+.parent .child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 130, 255);
+    border: solid;
+}
