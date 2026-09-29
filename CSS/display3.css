@@ -1,0 +1,50 @@
+.parent{
+    height: 300px;
+    width: 600px;
+    position: relative;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-flow: wrap row;
+}
+.parent .child{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border: solid black;
+    font-size: 50px;
+    box-shadow: 1px 2px 3px gray;
+}
+
+.parent .child:nth-child(1){
+    align-self: flex-start;
+}
+.parent .child:nth-child(2){
+   align-self: flex-end; 
+}
+.parent .child:nth-child(6){
+    flex-shrink: 1;
+}
+.parent .child:nth-child(7){
+    /* flex-grow: 1; */
+    flex-basis: 300px;
+}
+
+
+/*  flex-wrap & flex-direction == flex-flow: [wrap] [direction] ; */
+
+/*  align-itmes(according to parent),
+    align content(), 
+    align self (single element)*/

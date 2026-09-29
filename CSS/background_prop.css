@@ -1,0 +1,13 @@
+.demo{
+    height: 500px;
+    width: 600px;
+    background-color: ;
+    background-color: #563455;
+    background-color: rgb(255 100 100);
+    background-color: rgba(155, 30, 50, 0.5);
+    background-color: hsl(70, 50%, 80%);
+    background: linear-gradient(seagreen, hotpink, rgb(124, 114, 233), lightcyan);
+    background: radial-gradient(coral, royalblue, gold);
+    background: conic-gradient(brown,turquoise,indigo,magenta);
+    
+}

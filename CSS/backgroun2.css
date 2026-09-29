@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.bg{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: burlywood;
+    border: 10px solid blueviolet;
+    border-left: 10px solid magenta;
+    /* border-top: none; */
+    border-style: dashed;
+    border-style: double;
+    border-style: dotted;
+    border-style: ridge;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    /* 3D border */
+
+    color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPhWkbO_Yb0eY2oaHloJ1ZEn_w-L-Lof224FIoKS8sJw&s=10");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    margin: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 20px 5px white, 0px 0px 20px 5px white;
+    border-radius: 50%;
+
+}
