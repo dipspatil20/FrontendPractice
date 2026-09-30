@@ -1,0 +1,44 @@
+body{
+    background-color: #CCFBFA;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: cursive;
+    color: #6D0808;
+    /* text-shadow: 1px 2px 3px white; */
+}
+.player{
+    width: 350px;
+    height: 550px;
+    margin: 100px;
+    margin-left: 36%;
+    padding: 30px;
+    background-color: #B1E5E6;
+    border-radius: 100px 0px 100px 0px;
+    box-shadow: 0px 0px 35px black;
+    text-align: center;
+    color: black;
+}
+.player:hover{
+    box-shadow: 0px 0px 40px white;
+}
+.album img{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    border: 2px solid #CCFBFA;
+    box-shadow: 0px 0px 20px white;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
