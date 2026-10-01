@@ -1,0 +1,29 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: grid;
+    /* grid-template-columns: 50% 50%; */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 25% 25% 25% 25%; */
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.parent .child{
+    background-color: cornsilk;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+
+}
+.parent .contact{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.parent .form{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
