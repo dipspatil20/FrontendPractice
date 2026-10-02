@@ -1,7 +1,4 @@
 .parent{
-    /* font-family: "Poppins", sans-serif; */
-    /* font-family: "Lobster Two", sans-serif; */
-    /* font-family: Arial, Helvetica, sans-serif; */
     height: 150vh;
     width: 100%;
     /* background-color: teal; */
@@ -21,11 +18,14 @@
 .parent .contact{
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: #804b4b;
+    color: #FEE7C8;
     height: 80px;
     font-size: 50px;
     font-style: italic;
     font-weight: 800;
-    text-shadow: 5px 5px 10px #FFC0DE;
+    text-shadow: 10px 5px 20px #FCF9EA;
+    border-radius: 30px;
 }
 .parent .form{
     grid-row-start: 2;
@@ -50,11 +50,11 @@ input, textarea{
     margin-left: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #FFC0DE;
+    background-color: #FEE7C8;
     font-size: 20px;
 }
 ::placeholder{
-    color: #C654C3;
+    color: #FF9292;
 }
 .h1{
     font-size: 30px;
@@ -69,20 +69,20 @@ input, textarea{
     width: 84%;
     height: 50px;
     padding: 10px;
-    margin-top: 38px;
+    margin-top: 20px;
     margin-left: 30px;
     border-radius: 15px;
     border: none;
-    background-color: #FFC0DE;
+    background-color: #FEE7C8;
     font-size: 20px;
 }
 .s1{
     width: 30%;
     margin-left: 50px;
     height: 50px;
-    background-color: #C654C3;
+    background-color: #FF9292;
     font-size: 20px;
-    color: white;
+    color: black;
     border: none;
     margin-top: 10px;
     border-radius: 15px;
@@ -91,19 +91,20 @@ input, textarea{
 .submit{
     width: 90%;
     height: 50px;
-    background-color: white;
+    background-color: #804b4b;
     font-size: 20px;
-    color: #C654C3;
+    color: black;
     border: none;
     border-radius: 15px;
     margin-top: 20px;
     margin-left: 25px;
+    color: white;
 }
 .parent .news{
     height: 400px;
     margin-top: -200px;
     display: block;
-    background-color: #C654C3;
+    background-color: #FF9292;
     color: white;
     border-radius: 20px;
     padding: 10px;
@@ -116,7 +117,7 @@ input, textarea{
     margin-top: -80px;
     display: inline;
     padding: 60px;
-    background-color: #C654C3;
+    background-color: #FF9292;
     color: white;
     border-radius: 20px;
     font-size: 20px;
@@ -129,8 +130,8 @@ input, textarea{
     height: 150px;
     padding: 60px;
     /* width: 400px; */
-    background-color: #FFC0DE;
-    color: #8E1EA2;
+    background-color: #FEE7C8;
+    color: #804b4b;
     border-radius: 20px;
     font-size: 20px;
     display: block;
@@ -154,5 +155,6 @@ input, textarea{
     grid-column-end: 4;
     margin-top: -80px;
     width: 100%;
+    background-color: #804b4b;
     
 }
