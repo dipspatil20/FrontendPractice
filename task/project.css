@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+}
+.navbar .first{
+    height: 80px;
+    width: 65%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.first li{
+    padding-left: 30px;
+    list-style: none;
+}
+.first li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.navbar .second{
+    height: 80px;
+    width: 35%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar .second input{
+    width: 300px;
+    height: 30px;
+}
+.navbar .second button{
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.home{
+    height: 90vh;
+    width: 100%;
+    background-image: url("../cat.jpeg");
+    background-size: cover;
+    position: relative;
+    filter: grayscale(10);
+    /* filter: drop-shadow(2);  */
+}
+.home h1{
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .image{
+    height: 450px;
+    width: 300px;
+    background-color: aqua;
+}
+.about .para{
+    height: 450px;
+    width: 700px;
+    background-color: yellow;
+}
+.about .image img{
+    height: 200px;
+}
