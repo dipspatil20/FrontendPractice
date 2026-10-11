@@ -9,7 +9,7 @@
     grid-template-rows: repeat(4,1fr);
     gap: 10px;
     padding: 10px;
-}
+} 
 .parent .child{
     background-color: cornsilk;
     border: solid;
